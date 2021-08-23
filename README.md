@@ -5,6 +5,10 @@
 
 > A weather application created with React.js.
 
+![Weather App](https://github.com/ChanBos/React-Weather-App/blob/master/public/images/Weather-Bot.png)
+
+### ✨ [Link to the application]()
+
 ## Table of Contents:
 
 - [Installation](#installation)

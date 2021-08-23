@@ -1,38 +1,169 @@
+/* --- App --- */
+/* Set the App's margin and padding to 0 to reset these. */
 .App {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* --- Header --- */
+/* Set for the header to display as a grid and set the frames. Also set the minimum height, the bottom margin, the background colour and the 
+font size and color. */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 14vh;
+  margin-bottom: 10px;
+  background-color: #17bfbd;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+/* --- Sections/ Containers --- */
+/* Set the date and time's container to have an absolute position and aligned it to the top-right corner, set the width and the font colour. */
+#datetime {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  width: auto;
+  color: #000000;
+}
+
+/* Set the date's bottom margin and font size. */
+#date {
+  margin-bottom: 0px;
+  font-size: 1.7rem;
+}
+
+/* Set the time container to have a flex display and for the content to display in a row. */
+#timecontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Set the container's top margin. */
+.container {
+  margin-top: 25px;
+}
+
+/* Set the search section's display to flex and for the content to display in a row. Set the right margin, the bottom padding and justified and
+aligned the section to the right. */
+.searchsection {
+  display: flex;
+  flex-direction: row;
+  margin-right: 145px;
+  padding-bottom: 10px;
+  justify-content: flex-end !important;
+  align-items: right !important;
+}
+
+/* Set the location input section's width, left margin, padding, border radius and aligned the text to the center. */
+#location-name {
+  width: 205px;
+  margin-left: 10px !important;
+  padding: 5px;
+  border-radius: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Set for the weather container to display as a grid, set the frames and aligned the text to appear in the center. */
+#weathercontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Set the main weather's top margin and right-side padding. */
+#mainweather {
+  margin-top: -63px;
+  padding-right: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* --- Text --- */
+/* Set the <h1> element's text alignment. */
+h1 {
+  text-align: center !important;
+}
+
+/* Set the <h5> element's padding, background colour and font weight. Also added a border (styled, sized, coloured and radius dimensions set). */
+h5 {
+  padding: 10px;
+  background-color: #ff4931a9;
+  border: 3px solid #17bfbd;
+  border-radius: 26px 50px 50px 5px;
+  font-weight: bold;
+}
+
+/* Set the <label> and <p> elements' font weight and size. */
+label,
+p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+/* --- Icons --- */
+/* Set the calendar and clock icons' margins, padding, background colour, border radius and font size and colour. */
+.fa-calendar-check,
+.fa-clock {
+  margin-left: -2px;
+  margin-right: 8px;
+  margin-top: 3px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  color: #ff8576;
+}
+
+/* Set the calendar icon's padding and font-size. */
+.fa-calendar-check {
+  padding: 5px 5px;
+  font-size: 1.8rem;
+}
+
+/* Set the search location icon's left margin and font size. */
+.fa-search-location {
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+/* --- Images --- */
+/* Set the logo's position to absolute, aligned it to the top, left corner and set the height. */
+#logo {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 90px;
+}
+
+/* Set the weather icon's height, bottom margin and background colour. Also added a filter to try and cancel out some pixelation and added a 
+border (styled, sized and coloured). */
+.weather-icon {
+  height: 310px;
+  margin-bottom: 10px;
+  filter: contrast(100%);
+  background-color: #17bfbd;
+  border: 6px solid #ff8576;
+}
+
+/* --- Button --- */
+/* Set the search button's background to transparent and the border to none. */
+button {
+  background-color: transparent;
+  border: none !important;
+}
+
+/* Set for the search button's font size and colour to change once hovered over. */
+button:hover {
+  font-size: 1.1rem;
+  color: #ff8576;
+}
+
+/* Set the footer's top and left padding, the minimum height, the background colour and the font size and colour. */
+footer {
+  padding-top: 18px;
+  padding-left: 35px;
+  min-height: 9vh;
+  background-color: #17bfbd;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #000000;
 }

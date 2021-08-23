@@ -7,7 +7,7 @@
 
 ![Weather App](https://github.com/ChanBos/React-Weather-App/blob/master/public/images/Weather-Bot.png)
 
-### ✨ [Link to the application]()
+### ✨ [Link to the application](http://mean-fly.surge.sh/)
 
 ## Table of Contents:
 

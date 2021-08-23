@@ -70,7 +70,7 @@ npm test
 👤 **Chanelle Bösiger**
 
 - Github: [@ChanBos](https://github.com/ChanBos)
-- LinkedIn: [@ChanelleBösiger](@https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/)
+- LinkedIn: [@Chanelle Bösiger](https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/)
 
 ## Show your support
 

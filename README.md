@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to React-Weather-App 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A weather application created with React.js.
 
-## Available Scripts
+## Table of Contents:
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage Instructions](#usage-instructions)
+- [Author Details](#author-details)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run this project, do the following:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Select the directory that you wish to clone the project into. Example below:
 
-### `npm test`
+```sh
+cd folder/to/clone-into/`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Enter git clone [repository_URL] into the terminal or command prompt. Code and link below:
 
-### `npm run build`
+```sh
+gh repo clone ChanBos/React-Weather-App`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. If you want a different folder name, simply specify it as the last parameter. Example below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+gh repo clone ChanBos/React-Weather-App other-name`
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will create a new directory which will initialize a .git directory within it, pulling all of the data from this project. You will find all of the files and folders in this directory, enabling you to use and edit it to your liking.
 
-### `npm run eject`
+4. Navigate to this directory from the command line interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+cd "C:\Users\user\...
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Navigate to the folder's directory in the command line interface and type the following to install all of the necessary node modules:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage Instructions
 
-## Learn More
+In the command line interface type the following to run the application in development mode:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run tests
 
-### Code Splitting
+```sh
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+👤 **Chanelle Bösiger**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Github: [@ChanBos](https://github.com/ChanBos)
+- LinkedIn: [@Chanelle \(Scheepers\) Bösiger](@https://www.linkedin.com/in/chanelle-b%C3%B6siger-70587767/)
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if this project helped you!
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
